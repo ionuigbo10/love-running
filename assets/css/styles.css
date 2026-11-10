@@ -113,6 +113,38 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+#reasons h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 280%;
+
+}
+
+/* Benefits section */
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -174,6 +206,7 @@ main {
     }
 }
 
+    /*
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
